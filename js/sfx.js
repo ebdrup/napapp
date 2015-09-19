@@ -13,7 +13,7 @@ function sfx() {
 			volume: 0.3
 		}),
 		sorryBoss: new Howl({
-			urls: ['sorryBoss.mp3'],
+			urls: ['sorryboss.mp3'],
 			volume: 0.3
 		})
 	};
