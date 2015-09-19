@@ -10,7 +10,7 @@ function help(world, str, t, cb) {
 	var fontSize = Math.max(Math.ceil(world.renderer.view.width * 2 / (str.length*1.5)), 20);
 	var style = {
 		font: 'bold ' + fontSize + 'px Impact, Futura-CondensedExtraBold, DroidSans, Charcoal, sans-serif',
-		fill: '#' + color.toString(16)
+		fill: '#' + ('000000' + parseInt(color, 10).toString(16)).slice(-6)
 	};
 	var text = new PIXI.Text(str, style);
 	text.anchor.x = 0.5;
